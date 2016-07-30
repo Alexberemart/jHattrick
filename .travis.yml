@@ -1,0 +1,23 @@
+language: java
+sudo: false
+
+maven:
+  version: 3.2.3
+
+# Build everything in 'script' phase
+install: /bin/true
+
+script:
+  - mvn -Dmaven.wagon.provider.http=httpclient -U clean verify deploy --settings settings.xml -T 1C
+
+jdk:
+  - oraclejdk7
+
+notifications:
+  email:
+    - alexberemart@gmail.com
+
+# cache maven local repository
+cache:
+  directories:
+    - $HOME/.m2
