@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.Alexberemart</groupId>
+    <groupId>com.alexberemart</groupId>
     <artifactId>jHattrick</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
@@ -24,8 +24,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.Alexberemart</groupId>
-            <artifactId>HattrickCore</artifactId>
+            <groupId>com.alexberemart</groupId>
+            <artifactId>hattrickCore</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
