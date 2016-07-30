@@ -1,9 +1,9 @@
 package alexberemart.jHattrick.model.vo.players;
 
-import alexberemart.hattrickCore.model.enums.PlayerAggressiveness;
-import alexberemart.hattrickCore.model.enums.PlayerAgreeability;
-import alexberemart.hattrickCore.model.enums.PlayerHonesty;
-import alexberemart.hattrickCore.model.enums.SkillLevel;
+import com.alexberemart.hattrickCore.model.enums.PlayerAggressiveness;
+import com.alexberemart.hattrickCore.model.enums.PlayerAgreeability;
+import com.alexberemart.hattrickCore.model.enums.PlayerHonesty;
+import com.alexberemart.hattrickCore.model.enums.SkillLevel;
 
 public class HtPlayersTeamPlayersListPlayer {
 

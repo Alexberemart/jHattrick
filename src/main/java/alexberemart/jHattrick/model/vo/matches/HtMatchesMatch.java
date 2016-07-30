@@ -1,7 +1,7 @@
 package alexberemart.jHattrick.model.vo.matches;
 
-import alexberemart.hattrickCore.model.enums.MatchStatus;
-import alexberemart.hattrickCore.model.enums.MatchType;
+import com.alexberemart.hattrickCore.model.enums.MatchStatus;
+import com.alexberemart.hattrickCore.model.enums.MatchType;
 
 import java.util.Date;
 

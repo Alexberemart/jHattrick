@@ -1,7 +1,7 @@
 package alexberemart.jHattrick.services;
 
 import Alexberemart.core.util.ApplicationContextProvider;
-import alexberemart.hattrickCore.model.enums.*;
+import com.alexberemart.hattrickCore.model.enums.*;
 import alexberemart.jHattrick.model.vo.HtCredentials;
 import alexberemart.jHattrick.model.vo.economy.Economy;
 import alexberemart.jHattrick.model.vo.economy.EconomyTeam;
@@ -27,7 +27,6 @@ import alexberemart.jHattrick.model.vo.youthPlayerDetail.YouthPlayer;
 import alexberemart.jHattrick.model.vo.youthPlayerList.YouthPlayerList;
 import alexberemart.jHattrick.model.vo.youthPlayerList.YouthPlayerList_PlayerList;
 import alexberemart.jHattrick.model.vo.youthPlayerList.YouthPlayerList_PlayerList_YouthPlayer;
-import antlr.StringUtils;
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.basic.DefaultOAuthConsumer;
 import oauth.signpost.exception.OAuthCommunicationException;

@@ -1,7 +1,7 @@
 package alexberemart.jHattrick.model.vo.training;
 
-import alexberemart.hattrickCore.model.enums.SelfConfidence;
-import alexberemart.hattrickCore.model.enums.TeamSpirit;
+import com.alexberemart.hattrickCore.model.enums.SelfConfidence;
+import com.alexberemart.hattrickCore.model.enums.TeamSpirit;
 
 public class TrainingTeam {
 

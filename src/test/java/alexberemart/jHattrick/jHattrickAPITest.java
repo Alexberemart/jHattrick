@@ -1,6 +1,6 @@
 package alexberemart.jHattrick;
 
-import alexberemart.hattrickCore.model.enums.SourceSystem;
+import com.alexberemart.hattrickCore.model.enums.SourceSystem;
 import alexberemart.jHattrick.model.vo.HtCredentials;
 import alexberemart.jHattrick.model.vo.economy.Economy;
 import alexberemart.jHattrick.model.vo.matchLineUp.MatchLineUp;

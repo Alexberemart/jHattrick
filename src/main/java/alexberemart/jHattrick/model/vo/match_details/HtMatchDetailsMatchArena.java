@@ -1,6 +1,6 @@
 package alexberemart.jHattrick.model.vo.match_details;
 
-import alexberemart.hattrickCore.model.enums.Weather;
+import com.alexberemart.hattrickCore.model.enums.Weather;
 
 public class HtMatchDetailsMatchArena {
 
