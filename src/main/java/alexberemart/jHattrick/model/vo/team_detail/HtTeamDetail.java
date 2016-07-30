@@ -1,4 +1,4 @@
-package alexberemart.jHattrick.model.vo.HtTeamDetail;
+package alexberemart.jHattrick.model.vo.team_detail;
 
 import java.net.URI;
 import java.util.Date;

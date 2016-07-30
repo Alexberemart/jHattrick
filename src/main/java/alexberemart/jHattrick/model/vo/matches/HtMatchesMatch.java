@@ -1,4 +1,4 @@
-package alexberemart.jHattrick.model.vo.HtMatches;
+package alexberemart.jHattrick.model.vo.matches;
 
 import alexberemart.hattrickCore.model.enums.MatchStatus;
 import alexberemart.hattrickCore.model.enums.MatchType;

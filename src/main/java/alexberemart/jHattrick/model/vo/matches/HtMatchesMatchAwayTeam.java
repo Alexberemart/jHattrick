@@ -1,4 +1,4 @@
-package alexberemart.jHattrick.model.vo.HtMatches;
+package alexberemart.jHattrick.model.vo.matches;
 
 public class HtMatchesMatchAwayTeam {
 

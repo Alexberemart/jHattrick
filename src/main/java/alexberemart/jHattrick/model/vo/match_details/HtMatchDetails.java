@@ -1,4 +1,4 @@
-package alexberemart.jHattrick.model.vo.HtMatchDetails;
+package alexberemart.jHattrick.model.vo.match_details;
 
 public class HtMatchDetails {
 
