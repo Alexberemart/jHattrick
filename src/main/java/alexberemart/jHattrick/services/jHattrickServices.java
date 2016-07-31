@@ -1,6 +1,6 @@
 package alexberemart.jHattrick.services;
 
-import Alexberemart.core.util.ApplicationContextProvider;
+import com.alexberemart.core.util.ApplicationContextProvider;
 import com.alexberemart.hattrickCore.model.enums.*;
 import alexberemart.jHattrick.model.vo.HtCredentials;
 import alexberemart.jHattrick.model.vo.economy.Economy;
