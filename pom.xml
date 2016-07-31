@@ -12,6 +12,7 @@
 
     <properties>
         <jdk.version>1.7</jdk.version>
+        <hsqldb.version>2.3.2</hsqldb.version>
     </properties>
 
     <distributionManagement>
@@ -27,6 +28,12 @@
             <groupId>com.alexberemart</groupId>
             <artifactId>hattrickCore</artifactId>
             <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>${hsqldb.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -56,6 +63,21 @@
                     <source>${jdk.version}</source>
                     <target>${jdk.version}</target>
                     <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.16</version>
+                <configuration>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>src/main/java</additionalClasspathElement>
+                        <additionalClasspathElement>src/main/resources</additionalClasspathElement>
+                        <additionalClasspathElement>src/test/java</additionalClasspathElement>
+                    </additionalClasspathElements>
+                    <systemPropertyVariables>
+                        <environment>test</environment>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
