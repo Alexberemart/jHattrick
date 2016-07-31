@@ -31,11 +31,21 @@
     </dependencies>
 
     <build>
+        <finalName>jHattrick</finalName>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>${basedir}/src/main/conf</directory>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
             </resource>
         </resources>
+
+        <testResources>
+            <testResource>
+                <directory>${basedir}/src/test/resources</directory>
+            </testResource>
+        </testResources>
 
         <plugins>
             <plugin>
